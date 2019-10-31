@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "namx"
+
+string_of_nums = STDIN.read
+
+n = ARGV[0].to_i || 1
+
+Namx::run string_of_nums, n
