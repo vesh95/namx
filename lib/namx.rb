@@ -4,8 +4,8 @@ module Namx
   class Error < StandardError; end
   ##
   # @return Array of all numbers
-  def Namx.parse nmb
-    nmb.split(" ").each do |i|
+  def Namx.parse number
+    number.split(" ").each do |i|
       i.to_i
     end
   end
