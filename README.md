@@ -1,36 +1,33 @@
 # Namx
 [![Gem Version](https://badge.fury.io/rb/namx.svg)](https://badge.fury.io/rb/namx)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/namx`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
-Add this line to your application's Gemfile:
+### Install via Gemfile:
 
 ```ruby
-gem 'namx'
+source "https://rubygems.pkg.github.com/vesh95" do
+  gem "namx", "0.1.3"
+end
 ```
 
 And then execute:
+```sh
+  bundle
+```
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install namx
+### Install from the command line:
+```sh
+$ gem install namx --version "0.1.3" --source "https://rubygems.pkg.github.com/vesh95"
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```sh
+$ nmax 2 3 6 7 2 65 23
+64 23
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/namx.
+Bug reports and pull requests are welcome on GitHub at https://github.com/vesh95/namx.
